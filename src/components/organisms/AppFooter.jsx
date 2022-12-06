@@ -5,4 +5,3 @@ export default function AppFooter() {
     <div className="app-footer">Módulo React :: Full Stack Development</div>
   );
 }
-

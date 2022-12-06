@@ -16,13 +16,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/users" element={<Users />} />
         <Route path="/users/:userId" element={<UserBlog />} />
-        <Route path="/users/:userId/posts/new" element={<UserPostForm />} />
+        <Route path="/users/posts/new" element={<UserPostForm />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
-
-

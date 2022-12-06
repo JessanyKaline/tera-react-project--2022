@@ -6,5 +6,5 @@ export default function AppLoading() {
     <div className="center">
       <CircularProgress color="inherit" />
     </div>
-  ); 
+  );
 }
